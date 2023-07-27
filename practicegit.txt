@@ -59,4 +59,51 @@ by adding the files git i got link between the VISUAL STUDIO and GIT.
         * [new branch]      main -> main
         branch 'main' set up to track 'origin/main'.
 
-13. 
+13. git remote add origin https://github.com/Oggu15/practicemohan.git
+
+        error: remote origin already exists.
+
+14. git commit -m "Connecting between VS and GIT"
+
+        [main 6cf7297] Connecting between VS and GIT
+        1 file changed, 23 insertions(+)
+        mohanoggu@Mohans-MacBook-Air practice % git add .
+        mohanoggu@Mohans-MacBook-Air practice % git status
+        On branch main
+        Your branch is ahead of 'origin/main' by 1 commit.
+        (use "git push" to publish your local commits)
+
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   practicegit.txt
+
+15. git push
+
+    Enumerating objects: 5, done.
+    Counting objects: 100% (5/5), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (2/2), done.
+    Writing objects: 100% (3/3), 495 bytes | 495.00 KiB/s, done.
+    Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+    To https://github.com/Oggu15/practicemohan.git
+    987ad79..6cf7297  main -> main
+
+
+16. git branch
+
+    *   main
+
+17. git status
+        On branch main
+        Your branch is up to date with 'origin/main'.
+
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   practicegit.txt
+
+        Changes not staged for commit:
+        (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+                modified:   practicegit.txt
+
+18.     

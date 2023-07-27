@@ -1,0 +1,67 @@
+file 2.nadnxkdlwhdl
+ ndsjll
+
+
+
+ mohanoggu@Mohans-MacBook-Air practice % git add .
+mohanoggu@Mohans-MacBook-Air practice % git push
+Everything up-to-date
+mohanoggu@Mohans-MacBook-Air practice % git breanch
+git: 'breanch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+mohanoggu@Mohans-MacBook-Air practice % git branch
+* main
+mohanoggu@Mohans-MacBook-Air practice % git branch br-1
+mohanoggu@Mohans-MacBook-Air practice % git checkout br-1
+M       practicegit.txt
+A       practicegit1.txt
+Switched to branch 'br-1'
+mohanoggu@Mohans-MacBook-Air practice % git stage
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+mohanoggu@Mohans-MacBook-Air practice % git add .        
+mohanoggu@Mohans-MacBook-Air practice % git stage
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+mohanoggu@Mohans-MacBook-Air practice % git commit -m "branch"
+[br-1 8efc01d] branch
+ 2 files changed, 50 insertions(+), 1 deletion(-)
+ create mode 100644 practicegit1.txt
+mohanoggu@Mohans-MacBook-Air practice % git stage
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+mohanoggu@Mohans-MacBook-Air practice % git status
+On branch br-1
+nothing to commit, working tree clean
+mohanoggu@Mohans-MacBook-Air practice % git push
+fatal: The current branch br-1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin br-1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+mohanoggu@Mohans-MacBook-Air practice % git push --set-upstream origin br-1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 819 bytes | 819.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'br-1' on GitHub by visiting:
+remote:      https://github.com/Oggu15/practicemohan/pull/new/br-1
+remote: 
+To https://github.com/Oggu15/practicemohan.git
+ * [new branch]      br-1 -> br-1
+branch 'br-1' set up to track 'origin/br-1'
