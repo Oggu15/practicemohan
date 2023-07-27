@@ -4,20 +4,59 @@
 
 3.  git status
 
-    On branch practice
-
-    No commits yet
-
-    Changes to be committed:
-    (use "git rm --cached <file>..." to unstage)
-            new file:   practicegit.txt
+        On branch practice
+        No commits yet
+        Changes to be committed:
+        (use "git rm --cached <file>..." to unstage)
+                new file:   practicegit.txt
 
 4.  git commit -m "first commit"
+
+        On branch practice
+        Changes not staged for commit:
+        (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+                modified:   practicegit.txt
 
 5.  git .
 
 6.  git status
 
+        On branch practice
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   practicegit.txt
+
 7.  git branch -M main
 
 8.  git remote add origin https://github.com/Oggu15/practicemohan.git
+
+9.  git status
+
+        On branch main
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   practicegit.txt
+
+10. git add .
+
+11.  git status
+
+        On branch main
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   practicegit.txt
+
+by adding the files git i got link between the VISUAL STUDIO and GIT.
+
+12. git push -u origin main
+
+        Enumerating objects: 3, done.
+        Counting objects: 100% (3/3), done.
+        Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+        Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+        To https://github.com/Oggu15/practicemohan.git
+        * [new branch]      main -> main
+        branch 'main' set up to track 'origin/main'.
+
+13. 
